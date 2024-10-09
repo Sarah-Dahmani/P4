@@ -10,7 +10,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://Sarah-Dahmani.github.io/P4/">
 	<meta property="og:title" content="Nina Carducci : Photographe professionnelle à Bordeaux">
-	<meta property="og:description" content="Nina Carducci, Photographe professionnelle à Bordeaux, organise vos séances photos de rêve. Téléphone : 05.56.67.78.89. Ouvert du lundi au vendredi de 10h à 19h. Adresse postale : 68 avenue Alsace-Lorraine, 33200 Bordeaux.">
+	<meta name="description" content="Nina Carducci, Photographe professionnelle à Bordeaux, organise vos séances photos de rêve. Téléphone : 05.56.67.78.89. Ouvert du lundi au vendredi de 10h à 19h. Adresse postale : 68 avenue Alsace-Lorraine, 33200 Bordeaux.">
 	<meta property="og:image" content="https://Sarah-Dahmani.github.io/P4/assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@NinaCarducci">
@@ -23,10 +23,12 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" ></script>
-	<script src="./assets/maugallery.min.js"></script>
-	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-	<script src="./assets/scripts.js" defer></script>
+	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" ></script>
+	<script defer src="./assets/maugallery.min.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+	crossorigin="anonymous"></script>
+	<script defer src="./assets/scripts.js"></script>
 	<script type="application/ld+json">
 		{
 		"@context":"https://schema.org/",
@@ -191,18 +193,19 @@
 			<article class="form-container">
 				<h2>Une question ? <br>Une demande de devis ?</h2>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-				<form action="" method="post">
+				<form action="#" method="post">
 					<label for="nom">Nom</label>
 					<input type="text" name="nom" id="nom" autocomplete="name">
 					<label for="email">Email</label>
 					<input type="email" name="email" id="email" autocomplete="email">
 					<label for="message">Message</label>
-					<textarea name="message" id="message" cols="30" rows="10" autocomplete="message"></textarea>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
 					<input type="submit" value="Envoyer">
 				</form>
 			</article>
 				<div class="picture right">
-					<img src="./assets/images/camera.webp" class="camera" loading="lazy" alt="Contactez-moi" itemprop="image">
+					<img src="./assets/images/camera.webp" class="camera" loading="lazy" alt="Contactez-moi">
+				</div>
 				</div>
 		
 	</footer>
